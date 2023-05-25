@@ -42,7 +42,8 @@
 [![미리보기](https://img.youtube.com/vi/OywUcQBBKCM/0.jpg)](https://www.youtube.com/watch?v=OywUcQBBKCM)
 
 ##### - 사용자
-https://github.com/aelim0409/RC_CAR_PJT/assets/72659915/6c521ae0-2ac0-4a43-9f4e-bb1106c07c2d
+
+![IMG_9746](https://github.com/aelim0409/RC_CAR_PJT/assets/72659915/354b0336-ded2-442c-ae23-ab27ca46ae94)
 
 
 
