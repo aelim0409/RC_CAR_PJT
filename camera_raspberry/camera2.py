@@ -23,8 +23,11 @@ class MyThread(QThread):
 
     def printImage(self, imgBGR):
         imgRGB = cv2.cvtColor(imgBGR, cv2.COLOR_BGR2RGB)
+        imgRGB=cv2.flip(imgRGB,0)
+        imgRGB=cv2.flip(imgRGB,1)
         h, w, byte = imgRGB.shape
-        img = QImage(imgRGB, w, h, byte * w, QImage.Format_RGB888)
+        img = QImage(imgRGB, w, h, byte * w, QImage.Format_RGB888).scaled(700,500)
+        
         pix_img = QPixmap(img)
 
         self.mySignal.emit(pix_img)
@@ -40,7 +43,8 @@ class MyApp(QMainWindow, Ui_MainWindow):
     def main(self):
         self.th = MyThread()
         self.th.mySignal.connect(self.setImage)
-
+        self.pic1.setGeometry(QRect(60,0,700,500))
+        self.plyBtn.setGeometry(QRect(150,520,500,40))
     def setImage(self, img):
         self.pic1.setPixmap(img)
 
