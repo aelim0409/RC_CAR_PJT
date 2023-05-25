@@ -3,6 +3,10 @@
 ### [ 프로젝트 개요 ]
 ##### - 고위험군 산업현장 탐사 및 원격 제어 rc car 제작
 ---
+### [ 개발 흐름도 ]
+<img src="https://github.com/aelim0409/RC_CAR_PJT/assets/72659915/d2c9307d-7484-4a19-a2fb-0e9a6e01e264" style="height: 300px;">
+
+---
 ### [ 개발환경 ]
 #### 1. 장치
 ##### - Raspberry pi 4 , MPU-6050 , PI camera
