@@ -43,7 +43,8 @@
 
 ##### - 사용자
 
-![IMG_9746](https://github.com/aelim0409/RC_CAR_PJT/assets/72659915/354b0336-ded2-442c-ae23-ab27ca46ae94)
+<img src="https://github.com/aelim0409/RC_CAR_PJT/assets/72659915/354b0336-ded2-442c-ae23-ab27ca46ae94" style="height: 300px;">
+
 
 
 
